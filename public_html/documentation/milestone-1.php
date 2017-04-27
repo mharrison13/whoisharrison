@@ -8,7 +8,7 @@
 	<h2>Purpose</h2>
 	<p>I would like for my PWP to build a new online portfolio.</p>
 	<h2>Audience</h2>
-	<p>My audience will be potential clients. The site will be desiged as a clean, simple way for my audience to see my work and contact me for potential work.</p>
+	<p>My audience will be potential clients. The site will be designed as a clean, simple way for my audience to see my work and contact me for potential work.</p>
 	<h2>Goals</h2>
 	<ol>
 		<li>Acquire freelance projects</li>
