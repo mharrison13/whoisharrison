@@ -19,7 +19,7 @@
 
 	<h2><em>Persona</em></h2>
 	<p><strong>Name:</strong> Bob L. Business-Owner
-		<strong>Age:</strong> 50</p>
+	<p><strong>Age:</strong> 50</p>
 	<p><strong>Profession: </strong> Employer</p>
 	<p><Strong>Technology: </Strong> Windows, Mac and/or mobile user</p>
 	<p><strong>Attitudes and Behavior: </strong>Mr Business-Owner, owner of local business is looking for a web developer / DBA for their local business, whatever that may be.</p>
