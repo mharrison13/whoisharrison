@@ -38,7 +38,7 @@
 
 		<h2>Interaction Flow</h2>
 		<ol>
-			<li>User comes to site</li>
+			<li>User comes to whoisharrison.com</li>
 			<li>Whoisharrison.com delivers portfolio info, samples of work & contact info</li>
 			<li>User scrolls down through site</li>
 			<li>Whoisharrison.com offers a contact submit form</li>
