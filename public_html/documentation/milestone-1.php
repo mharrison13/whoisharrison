@@ -45,5 +45,4 @@
 			<li>User enters information in <em>request info</em> contact form.</li>
 			<li>Whoisharrison.com submits info to Michael Harrison's personal email</li>
 		</ol>
-
 </body>
