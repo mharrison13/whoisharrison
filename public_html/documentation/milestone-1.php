@@ -33,8 +33,8 @@
 		<p><strong>Goals: </strong>Bob really needs a web site that solves the problem of his potential customers finding and purchasing from him. He built his own website on wix and now realizes that he is losing business to his competitors because his website looks unprofessional.</p><br>
 
 		<h2>Use Case</h2>
-			<p>Feeling pressure to complete his website, Bob L. Business-Owner has taken the time to research local web developers in the area. He has narrowed his search down to three candidates including myself. </p>
-			<p>It is currently 11:30AM on Monday and Bob has decided to look over my website during his lunch hour with the intent of setting up a interviews. He has given himself a tight deadline to review the top candidate websites and mine if first up.</p>
+		<p>Feeling pressure to complete his website, Bob L. Business-Owner has taken the time to research local web developers in the area. Bob was given my information from a friend who previously hired me for a freelance job months ago and was pleased with the quality and turn-around time. Bob's research along with the recommendations from his friend, has narrowed his search down to three potential candidates including myself.</p>
+		<p>It is currently 11:30AM on Monday and Bob has decided to look over my website during his lunch hour with the intent of reaching out to a potential developer. He has given himself a tight deadline to review the top candidates websites and mine if first up.</p><br>
 
 		<h2>Interaction Flow </h2>
 		<ol>
