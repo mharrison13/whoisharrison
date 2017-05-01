@@ -10,15 +10,7 @@
 	<body>
 	<h1>Milestone 1 PWP - Michael Harrison</h1>
 
-		<h2>Nav</h2>
-		<ol>
-			<li>Purpose</li>
-			<li>Audience</li>
-			<li>Goals</li>
-			<li>Persona</li>
-			<li>Use Case</li>
-			<li>Interaction Flow</li>
-		</ol><br>
+		<h2><em>Purpose, Audience & Goal</em></h2>
 
 		<h2>Purpose</h2>
 		<p>I would like for my PWP to build a new online portfolio.</p>
