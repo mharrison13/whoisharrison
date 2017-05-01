@@ -12,8 +12,8 @@
 
 		<h2>Purpose, Audience & Goal</h2>
 
-		<strong>Purpose: </strong>I would like for my PWP to build a new online portfolio.
-		<strong>Audience: </strong>My audience will be potential clients. The site will be designed as a clean, simple way for my audience to see my work and contact me for potential work.
+		<p><strong>Purpose: </strong>I would like for my PWP to build a new online portfolio.</p>
+		<p><strong>Audience: </strong>My audience will be potential clients. The site will be designed as a clean, simple way for my audience to see my work and contact me for potential work.</p>
 		<strong>Goals: </strong>
 		<ol>
 			<li>Acquire freelance projects</li>
