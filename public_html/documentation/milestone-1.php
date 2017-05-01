@@ -30,7 +30,7 @@
 		<p><Strong>Technology: </Strong> Windows, Mac and/or mobile user</p>
 		<p><strong>Attitudes and Behavior: </strong>Mr Business-Owner, owner of local business is looking for a web developer / DBA for their local business, whatever that may be.</p>
 		<p><strong>Frustrations and Needs: </strong> Bob is looking for a talented, hardworking and knowledgeable employee to help advance his business and build his web presence above that of his competition.</p>
-		<p><strong>Goals: </strong>Bob really needs a web site that solves the problem of his potential customers finding and purchasing from him. He built his own website on wix and now realizes that he is losing business to his competitors because his website looks unprofessional.</p><br>
+		<p><strong>Goals: </strong>Bob really needs a web site that solves the problem of his potential customers finding and purchasing from him. He built his own website on wix and now realizes that he is losing business to his competitors because his website looks unprofessional.</p>
 
 		<h2><em>Use Case</em></h2>
 			<p>Last week, Bob L. Business-Owner was speaking to a friend over his lack of business. His friend looked at his website and realised that Bob's current website failed to showcase his product. On top of that, there was no way for his customers to find him or contact him. Bob's friend, having a background in marketing, suggested that rather that Bob trying to save money by doing his own website, he hire a professional to build a custom site that reflects the high quality product that Bob sells.</p>
