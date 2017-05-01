@@ -9,7 +9,16 @@
 	</head>
 	<body>
 	<h1>Milestone 1 PWP - Michael Harrison</h1>
-		<h2><em>Purpose, Audience & Goals</em></h2><br>
+		<h2>Objectives</h2>
+		<ol>
+			<li>Purpose</li>
+			<li>Audience</li>
+			<li>Goals</li>
+			<li>Persona</li>
+			<li>Use Case</li>
+			<li>Interaction Flow</li>
+		</ol><br>
+
 		<h2>Purpose</h2>
 		<p>I would like for my PWP to build a new online portfolio.</p>
 		<h2>Audience</h2>
@@ -17,10 +26,10 @@
 		<h2>Goals</h2>
 		<ol>
 			<li>Acquire freelance projects</li>
-			<li>Network with other professional</li>
+			<li>Network with other professionals</li>
 			<li>Provide means for contact</li>
 			<li>Make money!</li>
-		</ol>
+		</ol><br>
 
 		<h2><em>Persona</em></h2>
 
