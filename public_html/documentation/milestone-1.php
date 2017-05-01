@@ -8,7 +8,7 @@
 		<style></style>
 	</head>
 	<body>
-	<h1>Milestone 1 PWP</h1>
+	<h1>Milestone 1 PWP - Michael Harrison</h1>
 		<h2><em>Purpose, Audience & Goals</em></h2><br>
 		<h2>Purpose</h2>
 		<p>I would like for my PWP to build a new online portfolio.</p>
@@ -23,6 +23,7 @@
 		</ol>
 
 		<h2><em>Persona</em></h2>
+
 		<p><strong>Name:</strong> Bob L. Business-Owner
 		<p><strong>Age:</strong> 50</p>
 		<p><strong>Profession: </strong> Employer</p>
