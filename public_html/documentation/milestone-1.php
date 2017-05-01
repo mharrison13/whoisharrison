@@ -10,13 +10,11 @@
 	<body>
 	<h1>Milestone 1 PWP - Michael Harrison</h1>
 
-		<h2><em>Purpose, Audience & Goal</em></h2>
+		<h2>Purpose, Audience & Goal</h2>
 
-		<h2>Purpose</h2>
-		<p>I would like for my PWP to build a new online portfolio.</p>
-		<h2>Audience</h2>
-		<p>My audience will be potential clients. The site will be designed as a clean, simple way for my audience to see my work and contact me for potential work.</p>
-		<h2>Goals</h2>
+		<strong>Purpose: </strong>I would like for my PWP to build a new online portfolio.
+		<strong>Audience: </strong>My audience will be potential clients. The site will be designed as a clean, simple way for my audience to see my work and contact me for potential work.
+		<strong>Goals: </strong>
 		<ol>
 			<li>Acquire freelance projects</li>
 			<li>Network with other professionals</li>
