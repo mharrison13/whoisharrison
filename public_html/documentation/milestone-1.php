@@ -10,7 +10,7 @@
 	<body>
 	<h1>Milestone 1 PWP - Michael Harrison</h1>
 
-		<h2>Objectives</h2>
+		<h2>Nav</h2>
 		<ol>
 			<li>Purpose</li>
 			<li>Audience</li>
