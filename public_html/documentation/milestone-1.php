@@ -30,12 +30,12 @@
 		<p><Strong>Technology: </Strong> Windows, Mac and/or mobile user</p>
 		<p><strong>Attitudes and Behavior: </strong>Mr Business-Owner, owner of local business is looking for a web developer / DBA for their local business, whatever that may be.</p>
 		<p><strong>Frustrations and Needs: </strong> Bob is looking for a talented, hardworking and knowledgeable employee to help advance his business and build his web presence above that of his competition.</p>
-		<p><strong>Goals: </strong>Bob really needs a web site that solves the problem of his potential customers finding and purchasing from him. He built his own website on wix and now realizes that he is losing business to his competitors because his website looks unprofessional.</p>
+		<p><strong>Goals: </strong>Bob really needs a web site that solves the problem of his potential customers finding and purchasing from him. He built his own website on wix and now realizes that he is losing business to his competitors because his website looks unprofessional.</p><br>
 
 		<h2><em>Use Case</em></h2>
 			<p>Last week, Bob L. Business-Owner was speaking to a friend over his lack of business. His friend looked at his website and realised that Bob's current website failed to showcase his product. On top of that, there was no way for his customers to find him or contact him. Bob's friend, having a background in marketing, suggested that rather that Bob trying to save money by doing his own website, he hire a professional to build a custom site that reflects the high quality product that Bob sells.</p>
 			<p>Bob swears by his Mac and iPhone and believe that with these two components, he can build his own website. He just recently realized that an effective web presence is harder than he originally thought.</p>
-			<p>Whoisharrison.com will deliver necessary information and samples for Bob L. Business owner to see samples of Michael Harrison's work. Whoisharrison.com brand will be based on a clean and easy UX that will lead Bob directly to the request info submit form with a anchor style nav at the top of the page which will allow for Bob to jump around as needed. Within 10 seconds, Bob will immediately see a high quality portfolio site. Within 5 minutes of viewing Whoisharrison.com, Bob will be interested in the work and will want to reach out for more information.</p>
+			<p>Whoisharrison.com will deliver necessary information and samples for Bob L. Business owner to see samples of Michael Harrison's work. Whoisharrison.com brand will be based on a clean and easy UX that will lead Bob directly to the request info submit form with a anchor style nav at the top of the page which will allow for Bob to jump around as needed. Within 10 seconds, Bob will immediately see a high quality portfolio site. Within 5 minutes of viewing Whoisharrison.com, Bob will be interested in the work and will want to reach out for more information.</p><br>
 
 		<h2>Interaction Flow </h2>
 		<ol>
