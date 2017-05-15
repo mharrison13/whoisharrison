@@ -19,4 +19,7 @@
 		</ol>
 		<p>The type of content I plan to feature on my site will be screen shots and links of projects I have completed during our bootcamp. I will also include several websites I have built in the past with WordPress, Drupal & HTML. I will also include links to my github and linkedin accounts.</p>
 		<p>My strategy will be to demonstrate my skills through a visually appealing, <em>technical feeling</em> but clean website that is easy to navigate. This site will have clear descriptions of my skills and my resume. Finally, any potential employer will be able to immediately identify me as a qualified employee in the tech field. </p>
+		<img src="mobile-wireframe-1.png">
+		<img src="mobile-wireframe-2.jpg">
+		<img src="website-wireframe.png">
 	</body>
