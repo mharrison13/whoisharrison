@@ -30,4 +30,6 @@ Great attempt at Milestone2a. There are a few errors in your HTML that I will go
 
 your Html needs clean up you have no header and no closing Html tag.  I also recommend putting your images in an image directory, doing so gives you a cleaner directory structure.
 
+http://fancyapps.com/fancybox/3/http://fancyapps.com/fancybox/3/
+
 ## Grade Tier III feel free to start working on 2 beta
