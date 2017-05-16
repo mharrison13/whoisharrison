@@ -2,6 +2,7 @@
 this is my all new portfolio site
 
 # Milestone1 
+
 # feedback
 Purpose, audience, goals and persona are spot on. It seems that use case is just an extension of your persona. You are also missing a couple of things in the html. 
  
@@ -18,3 +19,15 @@ great job on the revisions. All the previous concerns have been addressed and it
 ### Milestone1 grade TierIV https://bootcamp-coders.cnm.edu/projects/personal/rubric/
 
 If you would like you can resubmit milestone1 on monday for a higher grade if you fix the mistakes I laid out.
+
+# Milestone 2a 
+
+## Feedback
+
+Great attempt at Milestone2a. There are a few errors in your HTML that I will go into detail later. The overall content strategy is solid. Highlighting the skills you have acquired during the Bootcamp should be easy to accomplish and should stand out to future employees. I recommend that you upload your resume to the site and have it be downloaded when someone clicks the resume link on your navbar. For your portfolio using something like fancy-box to display your previous projects would work well and would look great in the mobile view.  the portfolio section now would be very small and not user-friendly.  I love the idea of having the navbar at the bottom and can not wait to see how it turns out. Font awesome should have all the icons you need for your dev abilities. I also recommend having a short about me. 
+
+## Fixes
+
+your Html needs clean up you have no header and no closing Html tag.  I also recommend putting your images in an image directory, doing so gives you a cleaner directory structure.
+
+## Grade Tier III feel free to start working on 2 beta
