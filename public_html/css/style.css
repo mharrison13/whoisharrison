@@ -22,16 +22,15 @@ section {
 	padding: 2rem 0;
 }
 
-#navbar-fixed-bottom {
-	background-color: black;
-	color: gray;
-}
-
 .portfolio {
 	background-color: #0f0f11;
 	color: #888888;
+	align-content: center;
 }
 
 footer {
 	padding: 2rem 0;
+	background-color: #0f0f11;
+	color: #888888;
+	text-align: left;
 }

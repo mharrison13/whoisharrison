@@ -72,7 +72,7 @@
 						<div class="col-md-12">
 							<div class="whois">
 								<h1>Whois Harrison?</h1>
-								<p>With over 15 years of experience in web development and marketing, I can </p>
+								<p>With over 15 years of experience in web development and marketing, I can help take your next project to the next level. </p>
 								<button type="button" class="btn btn-primary">Yes, I'm available for hire</button>
 							</div>
 						</div>
