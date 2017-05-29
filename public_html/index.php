@@ -16,12 +16,15 @@
 
 		<!-- My Custom CSS -->
 		<link rel="stylesheet" href="css/style.css" type="text/css">
+		<link rel="stylesheet" href="css/jquery.fancybox.min.css" type="text/css" >
 
 		<!-- HTML5 shiv and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 		<!--[if lt IE 9]>
 		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<script src="js/code.jquery.com/jquery-3.2.1.min.js"></script>
+		<script src="js/jquery.fancybox.min.js"></script>
 		<![endif]-->
 
 		<!-- jQuery v3.0 -->
@@ -35,8 +38,8 @@
 	<body class="sfooter">
 		<div class="sfooter-content">
 
-			<header>
-				<nav class="navbar navbar-default navbar-fixed-bottom">
+			<header id="menu-bottom">
+				<nav class="navbar navbar-default">
 					<div class="container">
 						<!-- Brand and toggle get grouped for better mobile display -->
 						<div class="navbar-header">
@@ -52,10 +55,10 @@
 						<!-- Collect the nav links, forms, and other content for toggling -->
 						<div class="collapse navbar-collapse" id="main-menu">
 							<ul class="nav navbar-nav navbar-right">
-								<li><a href="https://github.com/mharrison13" target="_blank">GitHub</a></li>
-								<li><a href="/resume.html" target="_blank">Resume</a></li>
-								<li><a href="#portfolio" target="_blank">Portfolio</a></li>
-								<li><a href="#contact" target="_blank">Contact</a></li>
+								<li><a href="https://github.com/mharrison13" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> GitHub</a></li>
+								<li><a href="/resume.html" target="_blank"><i class="fa fa-file-text" aria-hidden="true"></i> Resume</a></li>
+								<li><a href="#portfolio" target="_blank"><i class="fa fa-laptop" aria-hidden="true"></i> Portfolio</a></li>
+								<li><a href="#contact" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i> Contact</a></li>
 							</ul>
 						</div><!-- /.navbar-collapse -->
 					</div><!-- /.container-fluid -->
@@ -69,7 +72,8 @@
 						<div class="col-md-12">
 							<div class="whois">
 								<h1>Whois Harrison?</h1>
-								<p>intro copy</p>
+								<p>With over 15 years of experience in web development and marketing, I can </p>
+								<button type="button" class="btn btn-primary">Yes, I'm available for hire</button>
 							</div>
 						</div>
 					</div>
@@ -77,9 +81,49 @@
 			</section>
 
 			<!-- Photo and Text Section -->
-			<section class="bg-info">
+			<section class="portfolio">
 				<div class="container">
-					<p>Slider to come here</p>
+					<h3>Portfolio</h3>
+
+					<p>
+						<a href="https://c1.staticflickr.com/9/8148/29324593462_abebaddc38_k.jpg" data-fancybox="images">
+							<img src="https://c1.staticflickr.com/9/8148/29324593462_f890687b7a_m.jpg" />
+						</a>
+
+						<a href="https://c2.staticflickr.com/6/5499/30972532232_051e1dc57e_h.jpg" data-fancybox="images">
+							<img src="https://c2.staticflickr.com/6/5499/30972532232_e9a298a0c5_m.jpg" />
+						</a>
+
+						<a href="https://c1.staticflickr.com/9/8021/29345513551_0c565462d8_k.jpg" data-fancybox="images">
+							<img src="https://c1.staticflickr.com/9/8021/29345513551_16024a89e3_m.jpg" />
+						</a>
+
+						<a href="https://c1.staticflickr.com/9/8148/29324593462_abebaddc38_k.jpg" data-fancybox="images">
+							<img src="https://c1.staticflickr.com/9/8148/29324593462_f890687b7a_m.jpg" />
+						</a>
+
+						<a href="https://c2.staticflickr.com/6/5499/30972532232_051e1dc57e_h.jpg" data-fancybox="images">
+							<img src="https://c2.staticflickr.com/6/5499/30972532232_e9a298a0c5_m.jpg" />
+						</a>
+
+						<a href="https://c1.staticflickr.com/9/8021/29345513551_0c565462d8_k.jpg" data-fancybox="images">
+							<img src="https://c1.staticflickr.com/9/8021/29345513551_16024a89e3_m.jpg" />
+						</a>
+
+						<a href="https://c1.staticflickr.com/9/8148/29324593462_abebaddc38_k.jpg" data-fancybox="images">
+							<img src="https://c1.staticflickr.com/9/8148/29324593462_f890687b7a_m.jpg" />
+						</a>
+
+						<a href="https://c2.staticflickr.com/6/5499/30972532232_051e1dc57e_h.jpg" data-fancybox="images">
+							<img src="https://c2.staticflickr.com/6/5499/30972532232_e9a298a0c5_m.jpg" />
+						</a>
+
+						<a href="https://c1.staticflickr.com/9/8021/29345513551_0c565462d8_k.jpg" data-fancybox="images">
+							<img src="https://c1.staticflickr.com/9/8021/29345513551_16024a89e3_m.jpg" />
+						</a>
+
+
+					</p>
 				</div>
 			</section>
 
