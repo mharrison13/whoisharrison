@@ -96,6 +96,7 @@
 			<section class="portfolio">
 				<div class="container">
 					<h3>Portfolio</h3>
+					<div class="websites">
 
 					<p>
 						<a href="https://c1.staticflickr.com/9/8148/29324593462_abebaddc38_k.jpg" data-fancybox="images">
@@ -133,6 +134,7 @@
 						<a href="https://c1.staticflickr.com/9/8021/29345513551_0c565462d8_k.jpg" data-fancybox="images">
 							<img src="https://c1.staticflickr.com/9/8021/29345513551_16024a89e3_m.jpg" />
 						</a>
+					</div>
 
 
 					</p>
