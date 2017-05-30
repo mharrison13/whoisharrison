@@ -206,13 +206,13 @@
 			<div class="container clients">
 				<div class="row">
 				<ul>
-					<li class="two columns"><img src="images/client-logo-1.png" alt="" class="scale-with-grid"></li>
-					<li class="two columns"><img src="images/client-logo-2.png" alt="" class="scale-with-grid"></li>
-					<li class="two columns"><img src="images/client-logo-3.png" alt="" class="scale-with-grid"></li>
-					<li class="two columns"><img src="images/client-logo-4.png" alt="" class="scale-with-grid"></li>
-					<li class="two columns"><img src="images/client-logo-5.png" alt="" class="scale-with-grid"></li>
-					<li class="two columns"><img src="images/client-logo-7.png" alt="" class="scale-with-grid"></li>
-					<li class="two columns"><img src="images/client-logo-8.png" alt="" class="scale-with-grid"></li>
+					<li class="two columns"><img src="images/client-logo-1.png" alt="Animal Humane" class="scale-with-grid"></li>
+					<li class="two columns"><img src="images/client-logo-2.png" alt="Duke Tattoo Fiesta" class="scale-with-grid"></li>
+					<li class="two columns"><img src="images/client-logo-3.png" alt="Robing Waynee" class="scale-with-grid"></li>
+					<li class="two columns"><img src="images/client-logo-4.png" alt="Heritage Hotels" class="scale-with-grid"></li>
+					<li class="two columns"><img src="images/client-logo-5.png" alt="Fitshop" class="scale-with-grid"></li>
+					<li class="two columns"><img src="images/client-logo-7.png" alt="Lorencos" class="scale-with-grid"></li>
+					<li class="two columns"><img src="images/client-logo-8.png" alt="Lobo Club" class="scale-with-grid"></li>
 				</ul>
 				</div>
 			</div>
