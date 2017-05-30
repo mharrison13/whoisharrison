@@ -17,6 +17,7 @@
 		<!-- My Custom CSS -->
 		<link rel="stylesheet" href="css/style.css" type="text/css">
 		<link rel="stylesheet" href="css/jquery.fancybox.min.css" type="text/css" >
+		<link rel="stylesheet" href="css/grid.css" type="text/css">
 
 		<!-- HTML5 shiv and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -210,7 +211,6 @@
 					<li class="two columns"><img src="images/client-logo-3.png" alt="" class="scale-with-grid"></li>
 					<li class="two columns"><img src="images/client-logo-4.png" alt="" class="scale-with-grid"></li>
 					<li class="two columns"><img src="images/client-logo-5.png" alt="" class="scale-with-grid"></li>
-					<li class="two columns"><img src="images/client-logo-6.png" alt="" class="scale-with-grid"></li>
 					<li class="two columns"><img src="images/client-logo-7.png" alt="" class="scale-with-grid"></li>
 					<li class="two columns"><img src="images/client-logo-8.png" alt="" class="scale-with-grid"></li>
 				</ul>
