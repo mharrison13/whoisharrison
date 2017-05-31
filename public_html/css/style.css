@@ -27,7 +27,8 @@ padding: 1rem 0;
 }
 
 #welcome {
-	color: gray;
+	color: White;
+	text-shadow: #0f0f11;
 	filter: grayscale(20%);
 	text-align: center;
 }
