@@ -27,11 +27,13 @@
 		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 		<script src="js/code.jquery.com/jquery-3.2.1.min.js"></script>
-		<script src="js/jquery.fancybox.min.js"></script>
+		<script src="js/custom-nav.js" type="text/javascript"></script>
 		<![endif]-->
+
 
 		<!-- jQuery v3.0 -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js" type="text/javascript"></script>
+		<script src="js/jquery.fancybox.min.js"></script>
 
 		<!-- jQuery Form, Additional Methods, Validate for contact-->
 		<script type="text/javascript"
@@ -57,8 +59,8 @@
 	<body class="sfooter">
 		<div class="sfooter-content">
 
-			<header id="menu-bottom">
-				<nav class="navbar navbar-default navbar-fixed-bottom">
+			<header class="navigation" id="menu-bottom">
+				<nav class="navbar navbar-default navbar-fixed-bottom" id="custom-nav">
 					<div class="container">
 						<!-- Brand and toggle get grouped for better mobile display -->
 						<div class="navbar-header">
@@ -155,98 +157,97 @@
 			<section>
 				<div class="container">
 					<div class="row">
-						<h3>Contact</h3>
-						<!--Begin Contact Form-->
-						<form id="contact-form" action="php/mailer.php" method="post">
-							<div class="form-group">
-								<label for="name">Name <span class="text-danger">*</span></label>
-								<div class="input-group">
-									<div class="input-group-addon">
-										<i class="fa fa-user" aria-hidden="true"></i>
+						<div class="col-xs-12">
+							<h3>Contact</h3>
+							<!--Begin Contact Form-->
+							<form id="contact-form" action="php/mailer.php" method="post">
+								<div class="form-group">
+									<label for="name">Name <span class="text-danger">*</span></label>
+									<div class="input-group">
+										<div class="input-group-addon">
+											<i class="fa fa-user" aria-hidden="true"></i>
+										</div>
+										<input type="text" class="form-control" id="name" name="name" placeholder="Name">
 									</div>
-									<input type="text" class="form-control" id="name" name="name" placeholder="Name">
 								</div>
-							</div>
-							<div class="form-group">
-								<label for="email">Email <span class="text-danger">*</span></label>
-								<div class="input-group">
-									<div class="input-group-addon">
-										<i class="fa fa-envelope" aria-hidden="true"></i>
+								<div class="form-group">
+									<label for="email">Email <span class="text-danger">*</span></label>
+									<div class="input-group">
+										<div class="input-group-addon">
+											<i class="fa fa-envelope" aria-hidden="true"></i>
+										</div>
+										<input type="email" class="form-control" id="email" name="email" placeholder="Email">
 									</div>
-									<input type="email" class="form-control" id="email" name="email" placeholder="Email">
 								</div>
-							</div>
-							<div class="form-group">
-								<label for="subject">Subject</label>
-								<div class="input-group">
-									<div class="input-group-addon">
-										<i class="fa fa-pencil" aria-hidden="true"></i>
+								<div class="form-group">
+									<label for="subject">Subject</label>
+									<div class="input-group">
+										<div class="input-group-addon">
+											<i class="fa fa-pencil" aria-hidden="true"></i>
+										</div>
+										<input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
 									</div>
-									<input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
 								</div>
-							</div>
-							<div class="form-group">
-								<label for="message">Message <span class="text-danger">*</span></label>
-								<div class="input-group">
-									<div class="input-group-addon">
-										<i class="fa fa-comment" aria-hidden="true"></i>
+								<div class="form-group">
+									<label for="message">Message <span class="text-danger">*</span></label>
+									<div class="input-group">
+										<div class="input-group-addon">
+											<i class="fa fa-comment" aria-hidden="true"></i>
+										</div>
+										<textarea class="form-control" rows="5" id="message" name="message"
+													 placeholder="Message (2000 characters max)"></textarea>
 									</div>
-									<textarea class="form-control" rows="5" id="message" name="message"
-												 placeholder="Message (2000 characters max)"></textarea>
 								</div>
-							</div>
+								<!-- reCAPTCHA -->
+								<div class="g-recaptcha" data-sitekey="--YOUR RECAPTCHA SITE KEY--"></div>
+
+								<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
+								<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
+							</form>
+						</div>
 					</div>
-
-					<!-- reCAPTCHA -->
-					<div class="g-recaptcha" data-sitekey="--YOUR RECAPTCHA SITE KEY--"></div>
-
-					<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
-					<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
-					</form>
-
 					<!--empty area for form error/success output-->
 					<div class="row">
 						<div class="col-xs-12">
 							<div id="output-area"></div>
 						</div>
 					</div>
-				</div><!--/.row-->
-		</div><!--/.container-->
-		</section>
+				</div><!--/.container-->
+			</section>
 
-		<!-- client logos -->
-		<section class="client-logos">
-			<div class="container clients">
-				<div class="row">
-					<ul>
-						<li class="two columns"><img src="images/client-logo-1.png" alt="Animal Humane"
-															  class="scale-with-grid"></li>
-						<li class="two columns"><img src="images/client-logo-2.png" alt="Duke Tattoo Fiesta"
-															  class="scale-with-grid"></li>
-						<li class="two columns"><img src="images/client-logo-3.png" alt="Robing Waynee"
-															  class="scale-with-grid"></li>
-						<li class="two columns"><img src="images/client-logo-4.png" alt="Heritage Hotels"
-															  class="scale-with-grid"></li>
-						<li class="two columns"><img src="images/client-logo-5.png" alt="Fitshop" class="scale-with-grid">
-						</li>
-						<li class="two columns"><img src="images/client-logo-7.png" alt="Lorencos" class="scale-with-grid">
-						</li>
-						<li class="two columns"><img src="images/client-logo-8.png" alt="Lobo Club" class="scale-with-grid">
-						</li>
-					</ul>
-				</div>
-			</div>
-		</section>
-
-		</div>
-		<footer class="bg-info text-center">
-			<div class="container">
-				<div class="row">
-					<div class="footer">
-						Whois Harrison © 2017 | github | resume | portfolio | contact
+			<!-- client logos -->
+			<section class="client-logos">
+				<div class="container clients">
+					<div class="row">
+						<ul>
+							<li class="two columns"><img src="images/client-logo-1.png" alt="Animal Humane"
+																  class="scale-with-grid"></li>
+							<li class="two columns"><img src="images/client-logo-2.png" alt="Duke Tattoo Fiesta"
+																  class="scale-with-grid"></li>
+							<li class="two columns"><img src="images/client-logo-3.png" alt="Robing Waynee"
+																  class="scale-with-grid"></li>
+							<li class="two columns"><img src="images/client-logo-4.png" alt="Heritage Hotels"
+																  class="scale-with-grid"></li>
+							<li class="two columns"><img src="images/client-logo-5.png" alt="Fitshop" class="scale-with-grid">
+							</li>
+							<li class="two columns"><img src="images/client-logo-7.png" alt="Lorencos" class="scale-with-grid">
+							</li>
+							<li class="two columns"><img src="images/client-logo-8.png" alt="Lobo Club"
+																  class="scale-with-grid">
+							</li>
+						</ul>
 					</div>
 				</div>
-			</div>
-		</footer>
+			</section>
+
+			<footer class="bg-info text-center">
+				<div class="container">
+					<div class="row">
+						<div class="footer">
+							Whois Harrison © 2017 | github | resume | portfolio | contact
+						</div>
+					</div>
+				</div>
+			</footer>
 	</body>
 </html>

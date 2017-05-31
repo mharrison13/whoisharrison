@@ -29,10 +29,19 @@ section {
 }
 
 footer {
-	padding: 2rem 0;
+	padding: 2rem 0 75px 0;
 	background-color: #0f0f11;
 	color: #888888;
 	text-align: left;
+}
+
+@media only screen and (min-width:768px) {
+	footer {
+		padding: 2rem 0;
+	}
+	section:nth-child(2){
+		padding: 75px 0 2rem 0;
+	}
 }
 
 /* Client Logos */
@@ -53,4 +62,12 @@ img.scale-with-grid {
 	width: 75%;
 	border: 3px black;
 	padding: 10px;
+}
+
+.container {
+	margin-right: 1rem;
+}
+
+.sfooter {
+
 }
