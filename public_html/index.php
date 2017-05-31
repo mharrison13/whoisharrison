@@ -60,7 +60,7 @@
 		<div class="sfooter-content">
 
 			<header class="navigation" id="menu-bottom">
-				<nav class="navbar navbar-default navbar-fixed-bottom" id="custom-nav">
+				<nav class="navbar navbar-inverse navbar-fixed-bottom" id="custom-nav">
 					<div class="container">
 						<!-- Brand and toggle get grouped for better mobile display -->
 						<div class="navbar-header">
@@ -231,8 +231,7 @@
 							</li>
 							<li class="two columns"><img src="images/client-logo-7.png" alt="Lorencos" class="scale-with-grid">
 							</li>
-							<li class="two columns"><img src="images/client-logo-8.png" alt="Lobo Club"
-																  class="scale-with-grid">
+							<li class="two columns"><img src="images/client-logo-8.png" alt="Lobo Club" class="scale-with-grid">
 							</li>
 						</ul>
 					</div>
