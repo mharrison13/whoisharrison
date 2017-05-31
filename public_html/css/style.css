@@ -6,7 +6,6 @@
 /*corrects IE min-height bug*/
 html { display: flex;}
 body { width: 100%;}
-background-image {url("../images/code.jpg");}
 
 .sfooter {
 	display: flex;
@@ -20,7 +19,7 @@ flex: 1 0 auto;
 
 /* Custom CSS */
 section {
-padding: 2rem 0;
+padding: 1rem 0;
 }
 
 #welcome {
