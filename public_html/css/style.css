@@ -6,6 +6,7 @@
 /*corrects IE min-height bug*/
 html { display: flex;}
 body { width: 100%;}
+background-image {url("../images/code.jpg");}
 
 .sfooter {
 	display: flex;
@@ -25,7 +26,6 @@ padding: 2rem 0;
 #welcome {
 	color: white;
 	filter: grayscale(20%);
-	background-image: url("../images/code.jpg");
 	text-align: center;
 }
 
