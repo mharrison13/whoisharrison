@@ -72,4 +72,5 @@ img.scale-with-grid {
 	color: #white;
 	filter: blur(20px) grayscale(20%);
 	background-image: url("../images/code.jpg");
+	text-align: center;
 }
