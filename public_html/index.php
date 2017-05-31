@@ -94,7 +94,7 @@
 
 			<!-- My Welcome Section -->
 			<section>
-				<div class="container">
+				<div class="container" id="welcome">
 					<div class="row">
 						<div class="col-md-12">
 							<div class="whois">

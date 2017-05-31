@@ -68,6 +68,8 @@ img.scale-with-grid {
 	margin-right: 1rem;
 }
 
-.sfooter {
-
+#welcome {
+	color: #white;
+	filter: blur(20px) grayscale(20%);
+	background-image: url("../images/code.jpg");
 }
