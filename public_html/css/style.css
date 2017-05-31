@@ -7,6 +7,10 @@
 html { display: flex;}
 body { width: 100%;}
 
+body {
+	background-image: url("../images/code.jpg");
+}
+
 .sfooter {
 	display: flex;
 	flex-direction: column;
