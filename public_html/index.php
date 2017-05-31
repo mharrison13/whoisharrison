@@ -110,7 +110,7 @@
 
 			<!-- Photo and Text Section -->
 			<section class="portfolio">
-				<div class="container">
+				<div class="container rellax" data-rellax-speed="-2">
 					<h3>Portfolio</h3>
 
 					<p>
@@ -248,5 +248,14 @@
 					</div>
 				</div>
 			</footer>
+
+			<!-- javascript -->
+			<script type="text/javascript" src="js/rellax.js"></script>
+			<script>
+				var rellax = new Rellax('.rellax', {
+					// center: true
+				});
+			</script>
+
 	</body>
 </html>
