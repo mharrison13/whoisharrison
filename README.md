@@ -32,4 +32,7 @@ your Html needs clean up you have no header and no closing Html tag.  I also rec
 
 http://fancyapps.com/fancybox/3/http://fancyapps.com/fancybox/3/
 
-## Grade Tier III feel free to start working on 2 beta
+### Grade Tier III feel free to start working on 2 beta
+
+## Milestone 2&beta; Feedback
+Great work so far. Milestone 2&beta; passes at Tier IV. Feedback left via Slack.
