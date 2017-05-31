@@ -23,7 +23,7 @@ padding: 1rem 0;
 }
 
 #welcome {
-	color: white;
+	color: gray;
 	filter: grayscale(20%);
 	text-align: center;
 }
