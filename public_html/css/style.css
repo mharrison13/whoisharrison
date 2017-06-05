@@ -3,9 +3,14 @@
 * http://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
 ***/
 /*corrects IE min-height bug*/
+/* Custom CSS */
 
-html { display: flex;}
-body { width: 100%;
+html {
+	display: flex;
+}
+
+body {
+	width: 100%;
 	background-image: url("../images/code.jpg");
 }
 
@@ -30,7 +35,6 @@ body { width: 100%;
 flex: 1 0 auto;
 }
 
-/* Custom CSS */
 section {
 padding: 1rem 0;
 }
