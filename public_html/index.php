@@ -114,39 +114,39 @@
 					<h3>Portfolio</h3>
 
 					<p>
-						<a href="https://c1.staticflickr.com/9/8148/29324593462_abebaddc38_k.jpg" data-fancybox="images">
+						<a href="https://c1.staticflickr.com/9/8148/29324593462_abebaddc38_k.jpg" data-fancybox="images" id="webexample">
 							<img src="https://c1.staticflickr.com/9/8148/29324593462_f890687b7a_m.jpg"/>
 						</a>
 
-						<a href="https://c2.staticflickr.com/6/5499/30972532232_051e1dc57e_h.jpg" data-fancybox="images">
+						<a href="https://c2.staticflickr.com/6/5499/30972532232_051e1dc57e_h.jpg" data-fancybox="images" id="webexample">
 							<img src="https://c2.staticflickr.com/6/5499/30972532232_e9a298a0c5_m.jpg"/>
 						</a>
 
-						<a href="https://c1.staticflickr.com/9/8021/29345513551_0c565462d8_k.jpg" data-fancybox="images">
+						<a href="https://c1.staticflickr.com/9/8021/29345513551_0c565462d8_k.jpg" data-fancybox="images" id="webexample">
 							<img src="https://c1.staticflickr.com/9/8021/29345513551_16024a89e3_m.jpg"/>
 						</a>
 
-						<a href="https://c1.staticflickr.com/9/8148/29324593462_abebaddc38_k.jpg" data-fancybox="images">
+						<a href="https://c1.staticflickr.com/9/8148/29324593462_abebaddc38_k.jpg" data-fancybox="images" id="webexample">
 							<img src="https://c1.staticflickr.com/9/8148/29324593462_f890687b7a_m.jpg"/>
 						</a>
 
-						<a href="https://c2.staticflickr.com/6/5499/30972532232_051e1dc57e_h.jpg" data-fancybox="images">
+						<a href="https://c2.staticflickr.com/6/5499/30972532232_051e1dc57e_h.jpg" data-fancybox="images" id="webexample">
 							<img src="https://c2.staticflickr.com/6/5499/30972532232_e9a298a0c5_m.jpg"/>
 						</a>
 
-						<a href="https://c1.staticflickr.com/9/8021/29345513551_0c565462d8_k.jpg" data-fancybox="images">
+						<a href="https://c1.staticflickr.com/9/8021/29345513551_0c565462d8_k.jpg" data-fancybox="images" id="webexample">
 							<img src="https://c1.staticflickr.com/9/8021/29345513551_16024a89e3_m.jpg"/>
 						</a>
 
-						<a href="https://c1.staticflickr.com/9/8148/29324593462_abebaddc38_k.jpg" data-fancybox="images">
+						<a href="https://c1.staticflickr.com/9/8148/29324593462_abebaddc38_k.jpg" data-fancybox="images" id="webexample">
 							<img src="https://c1.staticflickr.com/9/8148/29324593462_f890687b7a_m.jpg"/>
 						</a>
 
-						<a href="https://c2.staticflickr.com/6/5499/30972532232_051e1dc57e_h.jpg" data-fancybox="images">
+						<a href="https://c2.staticflickr.com/6/5499/30972532232_051e1dc57e_h.jpg" data-fancybox="images" id="webexample">
 							<img src="https://c2.staticflickr.com/6/5499/30972532232_e9a298a0c5_m.jpg"/>
 						</a>
 
-						<a href="https://c1.staticflickr.com/9/8021/29345513551_0c565462d8_k.jpg" data-fancybox="images">
+						<a href="https://c1.staticflickr.com/9/8021/29345513551_0c565462d8_k.jpg" data-fancybox="images" id="webexample">
 							<img src="https://c1.staticflickr.com/9/8021/29345513551_16024a89e3_m.jpg"/>
 						</a>
 					</p>

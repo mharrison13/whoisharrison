@@ -9,6 +9,10 @@ body { width: 100%;
 	background-image: url("../images/code.jpg");
 }
 
+#webexample {
+	padding: 1rem;
+}
+
 #gallery {
 	margin: 2rem;
 	padding: 2rem;
