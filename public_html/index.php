@@ -84,7 +84,7 @@
 										Resume</a></li>
 								<li><a href="#portfolio" target="_blank"><i class="fa fa-laptop" aria-hidden="true"></i>
 										Portfolio</a></li>
-								<li><a href="#contact" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i> Contact</a>
+								<li><a href="#contact" target="#contact-form"><i class="fa fa-envelope" aria-hidden="true"></i> Contact</a>
 								</li>
 							</ul>
 						</div><!-- /.navbar-collapse -->
@@ -101,7 +101,7 @@
 								<h1>Whois Harrison?</h1>
 								<p>With over 15 years of experience in web development and marketing, I can help take your next
 									project to the next level. </p>
-								<button type="button" class="btn btn-primary">Yes, I'm available for hire</button>
+								<button type="button" class="btn btn-primary"><a href="#contact-form"> Yes, I'm available for hire</a></button>
 							</div>
 						</div>
 					</div>
@@ -110,7 +110,7 @@
 
 			<!-- Photo and Text Section -->
 			<section class="portfolio">
-				<div class="container rellax" data-rellax-speed="-2">
+				<div class="container">
 					<h3>Portfolio</h3>
 
 					<p>
