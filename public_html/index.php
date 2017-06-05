@@ -110,7 +110,7 @@
 
 			<!-- Photo and Text Section -->
 			<section class="portfolio">
-				<div class="container">
+				<div class="container" id="gallery">
 					<h3>Portfolio</h3>
 
 					<p>

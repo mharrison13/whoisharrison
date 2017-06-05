@@ -9,6 +9,11 @@ body { width: 100%;
 	background-image: url("../images/code.jpg");
 }
 
+#gallery {
+	margin: 2rem;
+	padding: 2rem;
+}
+
 .sfooter {
 	display: flex;
 	flex-direction: column;
