@@ -12,6 +12,7 @@ body { width: 100%;
 #gallery {
 	margin: 2rem;
 	padding: 2rem;
+	align-content: center;
 }
 
 .sfooter {
