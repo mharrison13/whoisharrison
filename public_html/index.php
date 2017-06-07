@@ -21,16 +21,12 @@
 		<link rel="stylesheet" href="css/jquery.fancybox.min.css" type="text/css">
 		<link rel="stylesheet" href="css/grid.css" type="text/css">
 
-		<!-- HTML5 shiv and Respond.js for IE8 support of HTML5 elements and media queries -->
-		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-		<!-- jQuery v3.0 -->
-
-
 		<!--[if lt IE 9]>
 		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 		<script src="js/code.jquery.com/jquery-3.2.1.min.js"></script>
 		<![endif]-->
+
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js" type="text/javascript"></script>
 		<script src="js/jquery.fancybox.min.js"></script>
 		<script src="js/custom-nav.js" type="text/javascript"></script>
@@ -82,9 +78,12 @@
 										GitHub</a></li>
 								<li><a href="/resume.html" target="_blank"><i class="fa fa-file-text" aria-hidden="true"></i>
 										Resume</a></li>
-								<li><a href="#portfolio" target="_blank"><i class="fa fa-laptop" aria-hidden="true"></i>
+								<li><a href="https://www.linkedin.com/in/whoisharrison/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i>
+										LinkedIn</a></li>
+								<li><a href="#portfolio" target="#portfolio"><i class="fa fa-laptop" aria-hidden="true"></i>
 										Portfolio</a></li>
-								<li><a href="#contact" target="#contact-form"><i class="fa fa-envelope" aria-hidden="true"></i> Contact</a>
+								<li><a href="#contact" target="#contact-form"><i class="fa fa-envelope" aria-hidden="true"></i>
+										Contact</a>
 								</li>
 							</ul>
 						</div><!-- /.navbar-collapse -->
@@ -93,15 +92,16 @@
 			</header>
 
 			<!-- My Welcome Section -->
-			<section>
+			<section id="intro">
 				<div class="container" id="welcome">
 					<div class="row">
 						<div class="col-md-12">
 							<div class="whois">
-								<h1>Whois Harrison?</h1>
-								<p>With over 15 years of experience in web development and marketing, I can help take your next
-									project to the next level. </p>
-								<button type="button" class="btn btn-primary"><a href="#contact-form"> Yes, I'm available for hire</a></button>
+								<h1>Michael Harrison Web Developer</h1>
+								<p>With over 15 years of experience, I specialize in web development with extensive
+									background in digital marketing & multimedia development. Most recently I’ve enrolled in the STEMulus bootcamp coders program to further my knowledge of Angular & LAMP. </p>
+								<button type="button" class="btn btn-primary"><a href="#contact-form"> Yes, I'm available for
+										hire</a></button>
 							</div>
 						</div>
 					</div>
@@ -111,45 +111,39 @@
 			<!-- Photo and Text Section -->
 			<section class="portfolio">
 				<div class="container" id="gallery">
-					<h3>Portfolio</h3>
-
+					<h2>Recent Work</h2><br>
 					<p>
-						<a href="https://c1.staticflickr.com/9/8148/29324593462_abebaddc38_k.jpg" data-fancybox="images" id="webexample">
-							<img src="https://c1.staticflickr.com/9/8148/29324593462_f890687b7a_m.jpg"/>
+						<a href="images/port1.png" data-fancybox="images" id="webexample">
+							<img src="images/port1m.png"/>
 						</a>
 
-						<a href="https://c2.staticflickr.com/6/5499/30972532232_051e1dc57e_h.jpg" data-fancybox="images" id="webexample">
-							<img src="https://c2.staticflickr.com/6/5499/30972532232_e9a298a0c5_m.jpg"/>
+						<a href="images/port2.png" data-fancybox="images" id="webexample">
+							<img src="images/port2m.png"/>
 						</a>
 
-						<a href="https://c1.staticflickr.com/9/8021/29345513551_0c565462d8_k.jpg" data-fancybox="images" id="webexample">
-							<img src="https://c1.staticflickr.com/9/8021/29345513551_16024a89e3_m.jpg"/>
+						<a href="images/port3.png" data-fancybox="images" id="webexample">
+							<img src="images/port3m.png"/>
 						</a>
 
-						<a href="https://c1.staticflickr.com/9/8148/29324593462_abebaddc38_k.jpg" data-fancybox="images" id="webexample">
-							<img src="https://c1.staticflickr.com/9/8148/29324593462_f890687b7a_m.jpg"/>
+						<a href="images/port4.png" data-fancybox="images" id="webexample">
+							<img src="images/port4m.png"/>
 						</a>
 
-						<a href="https://c2.staticflickr.com/6/5499/30972532232_051e1dc57e_h.jpg" data-fancybox="images" id="webexample">
-							<img src="https://c2.staticflickr.com/6/5499/30972532232_e9a298a0c5_m.jpg"/>
+						<a href="images/port5.png" data-fancybox="images" id="webexample">
+							<img src="images/port5m.png"/>
 						</a>
 
-						<a href="https://c1.staticflickr.com/9/8021/29345513551_0c565462d8_k.jpg" data-fancybox="images" id="webexample">
-							<img src="https://c1.staticflickr.com/9/8021/29345513551_16024a89e3_m.jpg"/>
+						<a href="images/port6.png" data-fancybox="images" id="webexample">
+							<img src="images/port6m.png"/>
 						</a>
 
-						<a href="https://c1.staticflickr.com/9/8148/29324593462_abebaddc38_k.jpg" data-fancybox="images" id="webexample">
-							<img src="https://c1.staticflickr.com/9/8148/29324593462_f890687b7a_m.jpg"/>
+						<a href="images/port7.png" data-fancybox="images" id="webexample">
+							<img src="images/port7m.png"/>
 						</a>
 
-						<a href="https://c2.staticflickr.com/6/5499/30972532232_051e1dc57e_h.jpg" data-fancybox="images" id="webexample">
-							<img src="https://c2.staticflickr.com/6/5499/30972532232_e9a298a0c5_m.jpg"/>
+						<a href="images/port8.png" data-fancybox="images" id="webexample">
+							<img src="images/port8m.png"/>
 						</a>
-
-						<a href="https://c1.staticflickr.com/9/8021/29345513551_0c565462d8_k.jpg" data-fancybox="images" id="webexample">
-							<img src="https://c1.staticflickr.com/9/8021/29345513551_16024a89e3_m.jpg"/>
-						</a>
-					</p>
 				</div>
 			</section>
 
@@ -231,7 +225,8 @@
 							</li>
 							<li class="two columns"><img src="images/client-logo-7.png" alt="Lorencos" class="scale-with-grid">
 							</li>
-							<li class="two columns"><img src="images/client-logo-8.png" alt="Lobo Club" class="scale-with-grid">
+							<li class="two columns"><img src="images/client-logo-8.png" alt="Lobo Club"
+																  class="scale-with-grid">
 							</li>
 						</ul>
 					</div>
@@ -239,22 +234,14 @@
 			</section>
 
 			<footer class="bg-info text-center">
-				<div class="container">
+				<div class="container" id="footerbottom">
 					<div class="row">
 						<div class="footer">
-							Whois Harrison © 2017 | github | resume | portfolio | contact
+							Whois Harrison © 2017 | <a href="http://www.github.com/mharrison13">github</a> | resume | <a href="#portfolio">portfolio</a> | <a href="#contact">contact</a>
 						</div>
 					</div>
 				</div>
 			</footer>
-
-			<!-- javascript -->
-			<script type="text/javascript" src="js/rellax.js"></script>
-			<script>
-				var rellax = new Rellax('.rellax', {
-					// center: true
-				});
-			</script>
 
 	</body>
 </html>
