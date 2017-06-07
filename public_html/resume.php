@@ -29,6 +29,10 @@
 		<script src="js/jquery.fancybox.min.js"></script>
 		<![endif]-->
 
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js" type="text/javascript"></script>
+		<script src="js/jquery.fancybox.min.js"></script>
+		<script src="js/custom-nav.js" type="text/javascript"></script>
+
 		<!-- jQuery v3.0 -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js" type="text/javascript"></script>
 
@@ -39,22 +43,22 @@
 
 		<title>Resume</title>
 	</head>
-	<body class="sfooter">
+	<body class="sfooter" id="resume-body">
 		<div class="sfooter-content">
 
 			<header id="menu-bottom">
-				<nav class="navbar navbar-default">
-					<div class="container" id="resume">
-						<!-- Brand and toggle get grouped for better mobile display -->
-						<div class="navbar-header">
-							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+				<header class="navigation" id="menu-bottom">
+					<nav class="navbar navbar-inverse navbar-fixed-bottom" id="custom-nav">
+						<div class="container">
+							<!-- Brand and toggle get grouped for better mobile display -->
+							<div class="navbar-header">							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
 									  data-target="#main-menu" aria-expanded="false">
 								<span class="sr-only">Toggle navigation</span>
 								<span class="icon-bar"></span>
 								<span class="icon-bar"></span>
 								<span class="icon-bar"></span>
 							</button>
-							<a class="navbar-brand" href="#">Michael Harrison</a>
+							<a class="navbar-brand" href="michaelharrisonwebdev.com">Michael Harrison</a>
 						</div>
 
 						<!-- Collect the nav links, forms, and other content for toggling -->
@@ -63,11 +67,11 @@
 								<li><a href="https://github.com/mharrison13" target="_blank"><i class="fa fa-github"
 																													 aria-hidden="true"></i>
 										GitHub</a></li>
-								<li><a href="/resume.html" target="_blank"><i class="fa fa-file-text" aria-hidden="true"></i>
+								<li><a href="#"><i class="fa fa-file-text" aria-hidden="true"></i>
 										Resume</a></li>
-								<li><a href="#portfolio" target="_blank"><i class="fa fa-laptop" aria-hidden="true"></i>
+								<li><a href="http://www.michaelharrisonwebdev.com#portfolio"><i class="fa fa-laptop" aria-hidden="true"></i>
 										Portfolio</a></li>
-								<li><a href="#contact" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i> Contact</a>
+								<li><a href="http://www.michaelharrisonwebdev.com#contact"><i class="fa fa-envelope" aria-hidden="true"></i> Contact</a>
 								</li>
 							</ul>
 						</div><!-- /.navbar-collapse -->
@@ -97,47 +101,45 @@
 				<strong>Digital Brand Specialist Jan 2016 - Present
 					Santa Fe New Mexican</strong>
 
-				Redesigned our advertising website using a CMS platform and custom javascript code.
+				<p>Redesigned our advertising website using a CMS platform and custom javascript code.
 				Increased our digital media inventory across our site by 50%.
 				Manage digital creatives, inventory and eblasts
 				Digital consultations with hundreds of clients.
-				Use Google AdWords, Doubleclick and Ad Exchange, Analytics
+				Use Google AdWords, Doubleclick and Ad Exchange, Analytics</p>
 
 				<strong>Contract Web/Dev 2002 - present</strong>
 
-				Created small to large scale web apps for business and personal use
+				<p>Created small to large scale web apps for business and personal use
 				Brand development including logo development, website UX & SEO
 				Digital consultation including Google adwords and Google AdExchange
 				Implement CMS sites such as Drupal & wordpress
-				Develop web apps from concept to deployment
+					Develop web apps from concept to deployment</p>
 
 				<strong>Video Board Operator | VFX Artist 2014 - 2017</strong>
 
-				Create & deliver visual graphics and videos to large LED Stadium and arena video boards based on NCAA game
-				scripts.
-				Used After Effects and JavaScript, I have built over 200 non traditional format graphics.
+				<p>Create & deliver visual graphics and videos to large LED Stadium and arena video boards based on NCAA game scripts. Used After Effects and JavaScript, I have built over 200 non traditional format graphics.</p>
 
 
 				<strong>Video Producer / Editor 2009 - 2015
 					Rio Grande, a Berkshire Hathaway Company</strong>
 
-				Developed an online video program from the ground up for ecommerce.
+				<p>Developed an online video program from the ground up for ecommerce.
 				Acquired over 35,000 subscribers and over 8 million views on our video library.
-				Integrated into our ecommerce site as well as our online media presence.
+				Integrated into our ecommerce site as well as our online media presence.</p>
 
-				Education & Qualifications
-				Bachelor's Degree - University of New Mexico, Multimedia Development 2006
-				Full Stack Bootcamp CNM Stemulus 2017
-				Experience with in house marketing and development department
-				Google Certification in Ad Exchange & DoubleClick for Publishers
+				<strong>Education & Qualifications</strong>
+				<p>Bachelor's Degree - University of New Mexico, Multimedia Development 2006<br>
+				Full Stack Bootcamp CNM Stemulus 2017<br>
+				Experience with in house marketing and development department<br>
+					Google Certification in Ad Exchange & DoubleClick for Publishers</p>
 
 				<h2>Recommendations</h2>
 
 				<p>Michael has elevated our firm's brands and products to a proud level due to his ingenuity, experience and
 					innovation with photographic and video processes… and results. He has, additionally, mentored our team to
 					broaden our corporate capabilities. I consider him an invaluable resource for our future growth in a
-					demanding content world.</p>
-				<em>-Mark Hanna Chief Marketing Officer at Richline Group, Inc.</em>
+					demanding content world.<br>
+					<em><strong>-Mark Hanna Chief Marketing Officer at Richline Group, Inc.</strong></em></p>
 
 				<p>It was an absolute pleasure to work with Michael on the production of our new ear piercing training video
 					for Inverness. He delivered our final video on time and on budget and handled some unexpected changes
@@ -147,13 +149,13 @@
 					Albuquerque), Michael coordinated all the details of our shoot expertly. He is very skilled behind the
 					camera and was able to keep us on schedule while still making time to capture alternative shots. Michael
 					has excellent post production skills, and the final edit exceeded our expectations. I strongly recommend
-					him for any project you might be considering.</p>
-				<em>-Lynne Turner Marketing Manager at inverness</em>
+					him for any project you might be considering.
+					<em><strong>-Lynne Turner Marketing Manager at inverness</strong></em></p>
 
 
 				<strong>References upon request</strong>
 
-				http://www.linkedin.com/in/whoisharrison
+				<a href="http://www.linkedin.com/in/whoisharrison">linkedin.com/in/whoisharrison</a>
 			</div>
 		</div>
 	</body>

@@ -67,7 +67,7 @@
 								<span class="icon-bar"></span>
 								<span class="icon-bar"></span>
 							</button>
-							<a class="navbar-brand" href="#">Michael Harrison</a>
+							<a class="navbar-brand" href="michaelharrisonwebdev.com">Michael Harrison</a>
 						</div>
 
 						<!-- Collect the nav links, forms, and other content for toggling -->
@@ -76,13 +76,14 @@
 								<li><a href="https://github.com/mharrison13" target="_blank"><i class="fa fa-github"
 																													 aria-hidden="true"></i>
 										GitHub</a></li>
-								<li><a href="/resume.html" target="_blank"><i class="fa fa-file-text" aria-hidden="true"></i>
+								<li><a href="/resume.php" target="_blank"><i class="fa fa-file-text" aria-hidden="true"></i>
 										Resume</a></li>
-								<li><a href="https://www.linkedin.com/in/whoisharrison/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i>
+								<li><a href="https://www.linkedin.com/in/whoisharrison/" target="_blank"><i
+											class="fa fa-linkedin" aria-hidden="true"></i>
 										LinkedIn</a></li>
-								<li><a href="#portfolio" target="#portfolio"><i class="fa fa-laptop" aria-hidden="true"></i>
+								<li><a href="#portfolio"><i class="fa fa-laptop" aria-hidden="true"></i>
 										Portfolio</a></li>
-								<li><a href="#contact" target="#contact-form"><i class="fa fa-envelope" aria-hidden="true"></i>
+								<li><a href="#contact-form"><i class="fa fa-envelope" aria-hidden="true"></i>
 										Contact</a>
 								</li>
 							</ul>
@@ -99,9 +100,10 @@
 							<div class="whois">
 								<h1>Michael Harrison Web Developer</h1>
 								<p>With over 15 years of experience, I specialize in web development with extensive
-									background in digital marketing & multimedia development. Most recently I’ve enrolled in the STEMulus bootcamp coders program to further my knowledge of Angular & LAMP. </p>
-								<button type="button" class="btn btn-primary"><a href="#contact-form"> Yes, I'm available for
-										hire</a></button>
+									background in digital marketing & multimedia development. Most recently I’ve enrolled in the
+									STEMulus bootcamp coders program to further my knowledge of Angular & LAMP. </p>
+								<a href="#contact-form" class="btn btn-primary"> Yes, I'm available for
+										hire</a></abutton>
 							</div>
 						</div>
 					</div>
@@ -110,6 +112,7 @@
 
 			<!-- Photo and Text Section -->
 			<section class="portfolio">
+				<a name="portfolio"></a>
 				<div class="container" id="gallery">
 					<h2>Recent Work</h2><br>
 					<p>
@@ -133,8 +136,8 @@
 							<img src="images/port5m.png"/>
 						</a>
 
-						<a href="images/port6.png" data-fancybox="images" id="webexample">
-							<img src="images/port6m.png"/>
+						<a href="images/port9.png" data-fancybox="images" id="webexample">
+							<img src="images/port9m.png"/>
 						</a>
 
 						<a href="images/port7.png" data-fancybox="images" id="webexample">
@@ -149,6 +152,7 @@
 
 			<!-- Contact Section -->
 			<section id="contact-form">
+				<a name="contact-form"></a>
 				<div class="container">
 					<div class="row">
 						<div class="col-xs-12">
@@ -193,7 +197,7 @@
 									</div>
 								</div>
 								<!-- reCAPTCHA -->
-								<div class="g-recaptcha" data-sitekey="6LdI0SMUAAAAAMAVsMAUzN1NDiyhVCUIm6L7MYhd"></div>
+								<div class="g-recaptcha" data-sitekey="6LdI0SMUAAAAAMAVsMAUzN1NDiyhVCUIm6L7MYhd"></div><br>
 								<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
 								<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
 							</form>
@@ -237,7 +241,8 @@
 				<div class="container" id="footerbottom">
 					<div class="row">
 						<div class="footer">
-							Whois Harrison © 2017 | <a href="http://www.github.com/mharrison13">github</a> | resume | <a href="#portfolio">portfolio</a> | <a href="#contact">contact</a>
+							Whois Harrison © 2017 | <a href="http://www.github.com/mharrison13">github</a> | <a href="resume.php"> resume</a> | <a
+								href="#portfolio">portfolio</a> | <a href="#contact">contact</a>
 						</div>
 					</div>
 				</div>
