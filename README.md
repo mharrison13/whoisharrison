@@ -36,3 +36,34 @@ http://fancyapps.com/fancybox/3/http://fancyapps.com/fancybox/3/
 
 ## Milestone 2&beta; Feedback
 Great work so far. Milestone 2&beta; passes at Tier IV. Feedback left via Slack.
+
+## Milestone 3 / Final PWP Evaluation
+You've done an excellent job in creating an engaging, feature and content-rich PWP. You've put a lot of thought and care into crafting this site - and your code reflects a high standard. Well done.
+
+Based on the level of quality in your work, you are probably ready to explore more challenging Front End projects such as CMS custom theme creation and/or further integration with JS frameworks such as Angular and React. The creation of custom Bootstrap builds and CSS Preprocessors such as LESS and SASS are also fun areas to explore too.
+
+There are a few technical glitches though, the biggest one being that your contact form isn't working - and I'm pretty sure I know why... You have `id="contact-form"` declared twice! Once on line 158, and again on your &lt;form&gt; tag! What's happening is the first instance of the id is being passed into the `.validate` function... and that will bork it good. Rename the id on line 158, and you should be in business! See the Edits &amp; Suggestions section below for additional technical points.
+
+Overall, you've done very nice work on this project. I'd definitely polish things up a bit before sending this site out to employers - but they are all pretty minor fixes. Your Milestone 3/Final Delivery for PWP passes at [Tier II](https://bootcamp-coders.cnm.edu/projects/personal/rubric/).
+
+Your overall passing grade across all of your PWP Milestones is [28/40 points (70%)](https://bootcamp-coders.cnm.edu/projects/personal/rubric/#sample-score).
+
+- Milestone 1 - 20%: Tier IV 40(0.2) = 8
+- Milestone 2a - 20%: Tier III 30(0.2) = 6
+- Milestone 2b - 10%: Tier IV 40(0.1) = 4
+- Milestone 3 - 50%: Tier II 20(0.5) = 10
+
+## Edits &amp; Suggestions
+- You have jQuery loaded twice. I'd delete line 34.
+- Small technicality, but line 4 in your `.gitignore` needs to be `/node_modules`
+- Rename the id on line 158 to get your contact form working right.
+- You don't need `autoload.php` in your /php directory. That's meant for autoloading classes, and the only autoloader you need is in your /vendor directory.
+- I'd consider making your logos at the bottom clickable.
+- An SEO-friendlier practice for your subpages would be to create them in appropriately named subdirectories of their own, and create the page as an `index.php` file inside. This way, your URLs will look like this: http://www.michaelharrisonwebdev.com/resume and not this: http://www.michaelharrisonwebdev.com/resume.php
+- Don't forget the `alt` attribute on your images!
+- You'll want to update your "Home" link to just a '/' on your live deployment. "michaelharrisonwebdev.com" isn't going to work correctly.
+- Ideally, I wouldn't open internal links in a new tab... but in the same tab. I'd remove the `target="_blank"` attribute from those links, like "Resume"... and I would double check the links in your other navbars... but about that...
+- ...there's a better way to keep things DRY than having to repeat the navbar on your other pages. You can use the php `require_once();` function to include a separate navbar file. Then have a look at the [PHP Relative Path](https://bootcamp-coders.cnm.edu/class-materials/php/relative-path/) solution.
+- The *how-hard-could-it-be* page isn't mobile friendly at all... but it wouldn't take much to get it there.
+- I'd consider changing up the text color in the button.
+- There are a lot of repeated Git commit messages... especially early on in the project. Small thing, but it's important regarding good version control practices.
