@@ -19,7 +19,7 @@
 					<li><a href="https://github.com/mharrison13"><i class="fa fa-github"
 																										 aria-hidden="true"></i>
 							GitHub</a></li>
-					<li><a href="resume/index.php"><i class="fa fa-file-text" aria-hidden="true"></i>
+					<li><a href="resume"><i class="fa fa-file-text" aria-hidden="true"></i>
 							Resume</a></li>
 					<li><a href="https://www.linkedin.com/in/whoisharrison/"><i
 								class="fa fa-linkedin" aria-hidden="true"></i>
