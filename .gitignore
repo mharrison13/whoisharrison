@@ -1,6 +1,6 @@
 .DS_Store
 /.idea
 /vendor
-/node_module
+/node_modules
 **/php/mail-config.php
 

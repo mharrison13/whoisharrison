@@ -17,8 +17,8 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 		<!-- My Custom CSS -->
-		<link rel="stylesheet" href="css/style.css" type="text/css">
-		<link rel="stylesheet" href="css/jquery.fancybox.min.css" type="text/css">
+		<link rel="stylesheet" href="../css/style.css" type="text/css">
+		<link rel="stylesheet" href="../css/jquery.fancybox.min.css" type="text/css">
 
 		<!-- HTML5 shiv and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -26,12 +26,12 @@
 		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 		<script src="js/code.jquery.com/jquery-3.2.1.min.js"></script>
-		<script src="js/jquery.fancybox.min.js"></script>
+		<script src="../js/jquery.fancybox.min.js"></script>
 		<![endif]-->
 
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js" type="text/javascript"></script>
-		<script src="js/jquery.fancybox.min.js"></script>
-		<script src="js/custom-nav.js" type="text/javascript"></script>
+		<script src="../js/jquery.fancybox.min.js"></script>
+		<script src="../js/custom-nav.js" type="text/javascript"></script>
 
 		<!-- jQuery v3.0 -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js" type="text/javascript"></script>
@@ -45,41 +45,10 @@
 	</head>
 	<body class="sfooter" id="resume-body">
 		<div class="sfooter-content">
+			<!--nav-->
+			<?php require_once("../lib/header.php");?>
 
-			<header id="menu-bottom">
-				<header class="navigation" id="menu-bottom">
-					<nav class="navbar navbar-inverse navbar-fixed-bottom" id="custom-nav">
-						<div class="container">
-							<!-- Brand and toggle get grouped for better mobile display -->
-							<div class="navbar-header">							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-									  data-target="#main-menu" aria-expanded="false">
-								<span class="sr-only">Toggle navigation</span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-							</button>
-							<a class="navbar-brand" href="michaelharrisonwebdev.com">Michael Harrison</a>
-						</div>
-
-						<!-- Collect the nav links, forms, and other content for toggling -->
-						<div class="collapse navbar-collapse" id="main-menu">
-							<ul class="nav navbar-nav navbar-right">
-								<li><a href="https://github.com/mharrison13" target="_blank"><i class="fa fa-github"
-																													 aria-hidden="true"></i>
-										GitHub</a></li>
-								<li><a href="#"><i class="fa fa-file-text" aria-hidden="true"></i>
-										Resume</a></li>
-								<li><a href="http://www.michaelharrisonwebdev.com#portfolio"><i class="fa fa-laptop" aria-hidden="true"></i>
-										Portfolio</a></li>
-								<li><a href="http://www.michaelharrisonwebdev.com#contact"><i class="fa fa-envelope" aria-hidden="true"></i> Contact</a>
-								</li>
-							</ul>
-						</div><!-- /.navbar-collapse -->
-					</div><!-- /.container-fluid -->
-				</nav>
-			</header>
 			<div class="container">
-
 
 				<p>Michael Harrison<br>
 					mikeharrison34@gmail.com<br>
@@ -152,6 +121,7 @@
 					him for any project you might be considering.
 					<em><strong>-Lynne Turner Marketing Manager at inverness</strong></em></p>
 
+				<p><a href="http://www.michaelharrisonwebdev.com#contact">//  Contact now!</a></p><br>
 
 				<strong>References upon request</strong>
 

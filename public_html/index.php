@@ -39,58 +39,22 @@
 		<script type="text/javascript"
 				  src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.16.0/additional-methods.min.js"></script>
 
-		<!-- Your JavaScript Form Validator -->
-		<script src="js/form-validate.js"></script>
-
 		<!-- Google reCAPTCHA -->
 		<script src='https://www.google.com/recaptcha/api.js'></script>
 
 		<!-- minified JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
-				  integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-				  crossorigin="anonymous"></script>
+		integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+		crossorigin="anonymous"></script>
+
+		<!-- Your JavaScript Form Validator -->
+		<script src="js/form-validate.js"></script>
 
 		<title>Whois Harrison</title>
 	</head>
 	<body class="sfooter">
 		<div class="sfooter-content">
-
-			<header class="navigation" id="menu-bottom">
-				<nav class="navbar navbar-inverse navbar-fixed-bottom" id="custom-nav">
-					<div class="container">
-						<!-- Brand and toggle get grouped for better mobile display -->
-						<div class="navbar-header">
-							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-									  data-target="#main-menu" aria-expanded="false">
-								<span class="sr-only">Toggle navigation</span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-							</button>
-							<a class="navbar-brand" href="michaelharrisonwebdev.com">Michael Harrison</a>
-						</div>
-
-						<!-- Collect the nav links, forms, and other content for toggling -->
-						<div class="collapse navbar-collapse" id="main-menu">
-							<ul class="nav navbar-nav navbar-right">
-								<li><a href="https://github.com/mharrison13" target="_blank"><i class="fa fa-github"
-																													 aria-hidden="true"></i>
-										GitHub</a></li>
-								<li><a href="/resume.php" target="_blank"><i class="fa fa-file-text" aria-hidden="true"></i>
-										Resume</a></li>
-								<li><a href="https://www.linkedin.com/in/whoisharrison/" target="_blank"><i
-											class="fa fa-linkedin" aria-hidden="true"></i>
-										LinkedIn</a></li>
-								<li><a href="#portfolio"><i class="fa fa-laptop" aria-hidden="true"></i>
-										Portfolio</a></li>
-								<li><a href="#contact-form"><i class="fa fa-envelope" aria-hidden="true"></i>
-										Contact</a>
-								</li>
-							</ul>
-						</div><!-- /.navbar-collapse -->
-					</div><!-- /.container-fluid -->
-				</nav>
-			</header>
+			<?php require_once("lib/header.php");?>
 
 			<!-- My Welcome Section -->
 			<section id="intro">
@@ -103,7 +67,7 @@
 									background in digital marketing & multimedia development. Most recently I’ve enrolled in the
 									STEMulus bootcamp coders program to further my knowledge of Angular & LAMP. </p>
 								<a href="#contact-form" class="btn btn-primary"> Yes, I'm available for
-										hire</a></abutton>
+										hire</a>
 							</div>
 						</div>
 					</div>
@@ -117,41 +81,41 @@
 					<h2>Recent Work</h2><br>
 					<p>
 						<a href="images/port1.png" data-fancybox="images" id="webexample">
-							<img src="images/port1m.png"/>
+							<img src="images/port1m.png" alt="tattoo marque"/>
 						</a>
 
 						<a href="images/port2.png" data-fancybox="images" id="webexample">
-							<img src="images/port2m.png"/>
+							<img src="images/port2m.png" alt="Care Guide"/>
 						</a>
 
 						<a href="images/port3.png" data-fancybox="images" id="webexample">
-							<img src="images/port3m.png"/>
+							<img src="images/port3m.png" alt="Off Road Ex/>
 						</a>
 
 						<a href="images/port4.png" data-fancybox="images" id="webexample">
-							<img src="images/port4m.png"/>
+							<img src="images/port4m.png" alt="Abq Dental"/>
 						</a>
 
 						<a href="images/port5.png" data-fancybox="images" id="webexample">
-							<img src="images/port5m.png"/>
+							<img src="images/port5m.png" alt="Green Card Landscaping"/>
 						</a>
 
 						<a href="images/port9.png" data-fancybox="images" id="webexample">
-							<img src="images/port9m.png"/>
+							<img src="images/port9m.png" alt="Ryan Roberts"/>
 						</a>
 
 						<a href="images/port7.png" data-fancybox="images" id="webexample">
-							<img src="images/port7m.png"/>
+							<img src="images/port7m.png" alt="Rex Goes Racing"/>
 						</a>
 
 						<a href="images/port8.png" data-fancybox="images" id="webexample">
-							<img src="images/port8m.png"/>
+							<img src="images/port8m.png" alt="Robin Waynee"/>
 						</a>
 				</div>
 			</section>
 
 			<!-- Contact Section -->
-			<section id="contact-form">
+			<section id="message-form">
 				<a name="contact-form"></a>
 				<div class="container">
 					<div class="row">
@@ -237,16 +201,7 @@
 				</div>
 			</section>
 
-			<footer class="bg-info text-center">
-				<div class="container" id="footerbottom">
-					<div class="row">
-						<div class="footer">
-							Whois Harrison © 2017 | <a href="http://www.github.com/mharrison13">github</a> | <a href="resume.php"> resume</a> | <a
-								href="#portfolio">portfolio</a> | <a href="#contact">contact</a>
-						</div>
-					</div>
-				</div>
-			</footer>
+			<?php require_once("lib/footer.php");?>
 
 	</body>
 </html>
