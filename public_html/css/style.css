@@ -25,6 +25,56 @@ background-size: 100%;
 color: white;
 }
 
+#about {
+	text-align: center;
+}
+
+.icon-box{
+	position: relative;
+	width: 96px;
+	height: 96px;
+	padding: 16px 0 0 0;
+	margin: 0 auto 16px auto;
+	background: rgba(0, 0, 0, .4);
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	cursor: pointer;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.icon-box:after {
+	top: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(0, 0, 0, 0);
+	border-top-color: rgba(0, 0, 0, .4);
+	border-width: 10px;
+	margin-left: -10px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.icon-box:hover{
+	color: #fff;
+	background: rgba(0, 0, 0, .9);
+}
+.icon-box:hover:after{
+	border-top-color: rgba(0, 0, 0, .9);
+}
+
+#intropara {
+	margin-bottom: 3rem;
+	margin-left: 3rem;
+	margin-right: 3rem;
+}
+
 #webexample {
 	padding: 1rem;
 	margin-bottom: 1rem;

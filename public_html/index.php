@@ -44,8 +44,8 @@
 
 		<!-- minified JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
-		integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-		crossorigin="anonymous"></script>
+				  integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+				  crossorigin="anonymous"></script>
 
 		<!-- Your JavaScript Form Validator -->
 		<script src="js/form-validate.js"></script>
@@ -54,7 +54,7 @@
 	</head>
 	<body class="sfooter">
 		<div class="sfooter-content">
-			<?php require_once("lib/header.php");?>
+			<?php require_once("lib/header.php"); ?>
 
 			<!-- My Welcome Section -->
 			<section id="intro">
@@ -62,17 +62,38 @@
 					<div class="row">
 						<div class="col-md-12">
 							<div class="whois">
-								<h1>Michael Harrison Web Developer</h1>
-								<p>With over 15 years of experience, I specialize in web development with extensive
-									background in digital marketing & multimedia development. Most recently I’ve enrolled in the
-									STEMulus bootcamp coders program to further my knowledge of Angular & LAMP. </p>
+								<h1>Michael Harrison Web Developer</h1><br>
 								<a href="#contact-form" class="btn btn-primary"> Yes, I'm available for
-										hire</a>
+									hire</a>
 							</div>
 						</div>
 					</div>
 				</div>
 			</section>
+
+			<section id="about" class="section">
+				<div class="container">
+					<h2 class="title">About Me</h2>
+					<div class="subtitle" id="intropara"><p>My passion for programming and development dates back my high school years where
+							I learned Fortran 90 and competed in a programming competition where my team and I developed a program to calculate and forecast agriculture and livestock trends. After high school, I continued to pursue programming and web development as I learned Visual Basic and took on websites as freelance. For the last 7 years I have focused on PHP, Drupal and a number of other web related languages.Recently I finished a course at CNM where I studied full LAMP Stack programming with a focus on Angular 2+ and mySQL databases. With a passion for creating and building, I am always looking for opportunities what will allow me to grow as a web developer & programmer.</p></div>
+
+					<div class="one-third column animated" data-animate="fadeIn" data-animate-delay="400">
+						<div class="icon-box"><i class="fa fa-desktop fa-4x"></i></div>
+						<h5>Web Development</h5>
+						Never underestimate the value of a professional web app. This is your first impression with your customer and definitely not the place to fall short. I have years of experience in web development and content creation for both web and mobile platforms. With experience in full LAMP stack development and Angular, I can help develop your next large project.
+					</div>
+					<div class="one-third column animated" data-animate="fadeInRight" data-animate-delay="400">
+						<div class="icon-box"><i class="fa fa-adjust fa-4x"></i></div>
+						<h5>Web & Graphic Design</h5>
+						I first got my feet wet with graphic design back in 1998 designing user interfaces for computer programs. Over the last 18 years, I have designed everything from logos, flyers and banners to large catalogs and signage. Web Design, Brand Development and Digital graphics are some of the things I do daily.
+					</div>
+					<div class="one-third column animated" data-animate="fadeInLeft" data-animate-delay="400">
+						<div class="icon-box"><i class="fa fa-video-camera fa-4x"></i></div>
+						<h5>Video</h5>
+						With years of experience in video production for web, I can help you get your message out. I have extensive experience in professional quality video that is sure to match your brand. Adobe Premiere, Adobe After Effects, iZotope, Final Cut, Motion, Autodesk Maya are just some of the software I am familiar with. <br>
+					</div>
+				</div><!-- end container -->
+			</section><!-- end about section -->
 
 			<!-- Photo and Text Section -->
 			<section class="portfolio">
@@ -89,7 +110,7 @@
 						</a>
 
 						<a href="images/port3.png" data-fancybox="images" id="webexample">
-							<img src="images/port3m.png" alt="Off Road Ex/>
+							<img src="images/port3m.png" alt="Off Road Ex"/>
 						</a>
 
 						<a href="images/port4.png" data-fancybox="images" id="webexample">
@@ -111,27 +132,9 @@
 						<a href="images/port8.png" data-fancybox="images" id="webexample">
 							<img src="images/port8m.png" alt="Robin Waynee"/>
 						</a>
+					<p>These are just a few of my more recent work. Drupal, WordPress, </p>
 				</div>
 			</section>
-
-			<section id="about" class="section">
-				<div class="container">
-					<h2 class="title">About Me</h2>
-					<h4 class="subtitle">Marketing has always piqued my interest. I believe the ability to tell a story successfully is more than luck, it's an art. I graduated from the University of New Mexico with a degree in Multimedia Design in 2006. I specialize in Marketing and have have been working in the industry professionally for over twelve years. From video, to multimedia design to ad operations & implementation, I've seen it all. I really enjoy being able to work in a field that allows me to be creative and at the same time presents a new challenge every day. </h4>
-
-					<div class="one-third column animated" data-animate="fadeIn" data-animate-delay="400">
-						<div class="icon-box"><i class="fa fa-desktop fa-4x"></i></div>
-						<h5>Web Dev</h5>
-						Never underestimate the value of a great website. This is your first impression with your customer and definitely not the place to fall short. I have years of experience in Web Development and content creation for both web and mobile platforms.</div>
-					<div class="one-third column animated" data-animate="fadeInRight" data-animate-delay="400">
-						<div class="icon-box"><i class="fa fa-adjust fa-4x"></i></div>
-						<h5>Design</h5>
-						I first got my feet wet with graphic design back in 1998 designing user interfaces for programs. Over the last 18 years, I have designed everything from logos, flyers and banners to large catalogs and signage. Web Design, Adobe CC, Brand Development, Print Design & Layout are some of the things I do daily.</div><div class="one-third column animated" data-animate="fadeInLeft" data-animate-delay="400">
-						<div class="icon-box"><i class="fa fa-video-camera fa-4x"></i></div>
-						<h5>Video</h5>
-						With years of experience in video editing, I can help you get your message out. I specialize in pro quality video that is sure to match your brand. Adobe Premiere, Adobe After Effects, iZoptope, Final Cut, Motion, Autodesk Maya are just some of the software I am familiar with.</div>
-				</div><!-- end container -->
-			</section><!-- end about section -->
 
 			<!-- Contact Section -->
 			<section id="message-form">
@@ -180,7 +183,8 @@
 									</div>
 								</div>
 								<!-- reCAPTCHA -->
-								<div class="g-recaptcha" data-sitekey="6LdI0SMUAAAAAMAVsMAUzN1NDiyhVCUIm6L7MYhd"></div><br>
+								<div class="g-recaptcha" data-sitekey="6LdI0SMUAAAAAMAVsMAUzN1NDiyhVCUIm6L7MYhd"></div>
+								<br>
 								<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
 								<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
 							</form>
@@ -220,7 +224,7 @@
 				</div>
 			</section>
 
-			<?php require_once("lib/footer.php");?>
+			<?php require_once("lib/footer.php"); ?>
 
 	</body>
 </html>
