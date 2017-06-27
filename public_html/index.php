@@ -21,35 +21,6 @@
 		<link rel="stylesheet" href="css/jquery.fancybox.min.css" type="text/css">
 		<link rel="stylesheet" href="css/grid.css" type="text/css">
 
-		<!--[if lt IE 9]>
-		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-		<script src="js/code.jquery.com/jquery-3.2.1.min.js"></script>
-		<![endif]-->
-
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js" type="text/javascript"></script>
-		<script src="js/jquery.fancybox.min.js"></script>
-		<script src="js/custom-nav.js" type="text/javascript"></script>
-
-		<!-- jQuery Form, Additional Methods, Validate for contact-->
-		<script type="text/javascript"
-				  src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.1/jquery.form.min.js"></script>
-		<script type="text/javascript"
-				  src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.16.0/jquery.validate.min.js"></script>
-		<script type="text/javascript"
-				  src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.16.0/additional-methods.min.js"></script>
-
-		<!-- Google reCAPTCHA -->
-		<script src='https://www.google.com/recaptcha/api.js'></script>
-
-		<!-- minified JavaScript -->
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
-				  integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-				  crossorigin="anonymous"></script>
-
-		<!-- Your JavaScript Form Validator -->
-		<script src="js/form-validate.js"></script>
-
 		<title>Whois Harrison</title>
 	</head>
 	<body class="sfooter">
@@ -74,23 +45,37 @@
 			<section id="about" class="section">
 				<div class="container">
 					<h2 class="title">About Me</h2>
-					<div class="subtitle" id="intropara"><p>My passion for programming and development dates back my high school years where
-							I learned Fortran 90 and competed in a programming competition where my team and I developed a program to calculate and forecast agriculture and livestock trends. After high school, I continued to pursue programming and web development as I learned Visual Basic and took on websites as freelance. For the last 7 years I have focused on PHP, Drupal and a number of other web related languages.Recently I finished a course at CNM where I studied full LAMP Stack programming with a focus on Angular 2+ and mySQL databases. With a passion for creating and building, I am always looking for opportunities what will allow me to grow as a web developer & programmer.</p></div>
+					<div class="subtitle" id="intropara"><p>My passion for programming and development dates back my high
+							school years where
+							I learned Fortran 90 and competed in a programming competition where my team and I developed a
+							program to calculate and forecast agriculture and livestock trends. For the last 7 years I have
+							focused on PHP, HTML5, CSS and a number of other web related languages. Recently I finished a
+							course at CNM where I studied full LAMP Stack programming with a focus on Angular 2+ and mySQL
+							databases.</p></div>
 
 					<div class="one-third column animated" data-animate="fadeIn" data-animate-delay="400">
 						<div class="icon-box"><i class="fa fa-desktop fa-4x"></i></div>
 						<h5>Web Development</h5>
-						Never underestimate the value of a professional web app. This is your first impression with your customer and definitely not the place to fall short. I have years of experience in web development and content creation for both web and mobile platforms. With experience in full LAMP stack development and Angular, I can help develop your next large project.
+						<p>Never underestimate the value of a professional web app. This is your first impression with your
+							customer and definitely not the place to fall short. I have years of experience in web development
+							and content creation for both web and mobile platforms. With experience in full LAMP stack
+							development and Angular, I can help develop your next large project.</p>
 					</div>
 					<div class="one-third column animated" data-animate="fadeInRight" data-animate-delay="400">
 						<div class="icon-box"><i class="fa fa-adjust fa-4x"></i></div>
 						<h5>Web & Graphic Design</h5>
-						I first got my feet wet with graphic design back in 1998 designing user interfaces for computer programs. Over the last 18 years, I have designed everything from logos, flyers and banners to large catalogs and signage. Web Design, Brand Development and Digital graphics are some of the things I do daily.
+						<p>I first got my feet wet with graphic design back in 1998 designing user interfaces for computer
+							programs. Over the last 18 years, I have designed everything from logos, flyers and banners to
+							large catalogs and signage. Web Design, Brand Development and Digital graphics are some of the
+							things I do daily.</p>
 					</div>
 					<div class="one-third column animated" data-animate="fadeInLeft" data-animate-delay="400">
 						<div class="icon-box"><i class="fa fa-video-camera fa-4x"></i></div>
 						<h5>Video</h5>
-						With years of experience in video production for web, I can help you get your message out. I have extensive experience in professional quality video that is sure to match your brand. Adobe Premiere, Adobe After Effects, iZotope, Final Cut, Motion, Autodesk Maya are just some of the software I am familiar with. <br>
+						<p>With years of experience in video production for web, I can help you get your message out. I have
+							extensive experience in professional quality video that is sure to match your brand. Adobe
+							Premiere, Adobe After Effects, iZotope, Final Cut, Motion, Autodesk Maya are just some of the
+							software I am familiar with. </p><br>
 					</div>
 				</div><!-- end container -->
 			</section><!-- end about section -->
@@ -100,39 +85,42 @@
 				<a name="portfolio"></a>
 				<div class="container" id="gallery">
 					<h2>Recent Work</h2><br>
-					<p>
-						<a href="images/port1.png" data-fancybox="images" id="webexample">
-							<img src="images/port1m.png" alt="tattoo marque"/>
-						</a>
+					<p>Below are just a few of my more recent websites using Drupal, WordPress, HTML5 & CSS. </p>
 
-						<a href="images/port2.png" data-fancybox="images" id="webexample">
-							<img src="images/port2m.png" alt="Care Guide"/>
-						</a>
+					<a href="images/port1.png" data-fancybox="images" id="webexample">
+						<img src="images/port1m.png" alt="tattoo marque"/>
+					</a>
 
-						<a href="images/port3.png" data-fancybox="images" id="webexample">
-							<img src="images/port3m.png" alt="Off Road Ex"/>
-						</a>
+					<a href="images/port2.png" data-fancybox="images" id="webexample">
+						<img src="images/port2m.png" alt="Care Guide"/>
+					</a>
 
-						<a href="images/port4.png" data-fancybox="images" id="webexample">
-							<img src="images/port4m.png" alt="Abq Dental"/>
-						</a>
+					<a href="images/port3.png" data-fancybox="images" id="webexample">
+						<img src="images/port3m.png" alt="Off Road Ex"/>
+					</a>
 
-						<a href="images/port5.png" data-fancybox="images" id="webexample">
-							<img src="images/port5m.png" alt="Green Card Landscaping"/>
-						</a>
+					<a href="images/port4.png" data-fancybox="images" id="webexample">
+						<img src="images/port4m.png" alt="Abq Dental"/>
+					</a>
 
-						<a href="images/port9.png" data-fancybox="images" id="webexample">
-							<img src="images/port9m.png" alt="Ryan Roberts"/>
-						</a>
+					<a href="images/port5.png" data-fancybox="images" id="webexample">
+						<img src="images/port5m.png" alt="Green Card Landscaping"/>
+					</a>
 
-						<a href="images/port7.png" data-fancybox="images" id="webexample">
-							<img src="images/port7m.png" alt="Rex Goes Racing"/>
-						</a>
+					<a href="images/port9.png" data-fancybox="images" id="webexample">
+						<img src="images/port9m.png" alt="Ryan Roberts"/>
+					</a>
 
-						<a href="images/port8.png" data-fancybox="images" id="webexample">
-							<img src="images/port8m.png" alt="Robin Waynee"/>
-						</a>
-					<p>These are just a few of my more recent work. Drupal, WordPress, </p>
+					<a href="images/port7.png" data-fancybox="images" id="webexample">
+						<img src="images/port7m.png" alt="Rex Goes Racing"/>
+					</a>
+
+					<a href="images/port8.png" data-fancybox="images" id="webexample">
+						<img src="images/port8m.png" alt="Robin Waynee"/>
+					</a><br>
+					<div class="extra">
+						<a href="http://www.whoisharrison.com" target="_blank">More of my work</a>
+					</div>
 				</div>
 			</section>
 
@@ -225,6 +213,36 @@
 			</section>
 
 			<?php require_once("lib/footer.php"); ?>
+
+			<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+			<script src="js/code.jquery.com/jquery-3.2.1.min.js"></script>
+			<![endif]-->
+
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"
+					  type="text/javascript"></script>
+			<script src="js/jquery.fancybox.min.js"></script>
+			<script src="js/custom-nav.js" type="text/javascript"></script>
+
+			<!-- jQuery Form, Additional Methods, Validate for contact-->
+			<script type="text/javascript"
+					  src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.1/jquery.form.min.js"></script>
+			<script type="text/javascript"
+					  src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.16.0/jquery.validate.min.js"></script>
+			<script type="text/javascript"
+					  src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.16.0/additional-methods.min.js"></script>
+
+			<!-- Google reCAPTCHA -->
+			<script src='https://www.google.com/recaptcha/api.js'></script>
+
+			<!-- minified JavaScript -->
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+					  integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+					  crossorigin="anonymous"></script>
+
+			<!-- Your JavaScript Form Validator -->
+			<script src="js/form-validate.js"></script>
 
 	</body>
 </html>
