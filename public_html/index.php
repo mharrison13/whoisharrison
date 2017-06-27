@@ -114,6 +114,25 @@
 				</div>
 			</section>
 
+			<section id="about" class="section">
+				<div class="container">
+					<h2 class="title">About Me</h2>
+					<h4 class="subtitle">Marketing has always piqued my interest. I believe the ability to tell a story successfully is more than luck, it's an art. I graduated from the University of New Mexico with a degree in Multimedia Design in 2006. I specialize in Marketing and have have been working in the industry professionally for over twelve years. From video, to multimedia design to ad operations & implementation, I've seen it all. I really enjoy being able to work in a field that allows me to be creative and at the same time presents a new challenge every day. </h4>
+
+					<div class="one-third column animated" data-animate="fadeIn" data-animate-delay="400">
+						<div class="icon-box"><i class="fa fa-desktop fa-4x"></i></div>
+						<h5>Web Dev</h5>
+						Never underestimate the value of a great website. This is your first impression with your customer and definitely not the place to fall short. I have years of experience in Web Development and content creation for both web and mobile platforms.</div>
+					<div class="one-third column animated" data-animate="fadeInRight" data-animate-delay="400">
+						<div class="icon-box"><i class="fa fa-adjust fa-4x"></i></div>
+						<h5>Design</h5>
+						I first got my feet wet with graphic design back in 1998 designing user interfaces for programs. Over the last 18 years, I have designed everything from logos, flyers and banners to large catalogs and signage. Web Design, Adobe CC, Brand Development, Print Design & Layout are some of the things I do daily.</div><div class="one-third column animated" data-animate="fadeInLeft" data-animate-delay="400">
+						<div class="icon-box"><i class="fa fa-video-camera fa-4x"></i></div>
+						<h5>Video</h5>
+						With years of experience in video editing, I can help you get your message out. I specialize in pro quality video that is sure to match your brand. Adobe Premiere, Adobe After Effects, iZoptope, Final Cut, Motion, Autodesk Maya are just some of the software I am familiar with.</div>
+				</div><!-- end container -->
+			</section><!-- end about section -->
+
 			<!-- Contact Section -->
 			<section id="message-form">
 				<a name="contact-form"></a>
